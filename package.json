@@ -1,7 +1,7 @@
 {
-  "name": "npm-package-template",
+  "name": "discord-lucy-bot",
   "version": "1.2.0",
-  "description": "A template for writing NPM packages.",
+  "description": "A package that has finished discord bot with music system and general system",
   "main": "index.js",
   "scripts": {
     "build": "babel --presets env src -d ./ --ignore src/index.test.js",
@@ -10,20 +10,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cleverbeagle/npm-package-template"
+    "url": "git+https://github.com/Absolute-Development/discord-lucy-bot"
   },
   "keywords": [
-    "npm",
-    "package",
-    "template"
+    "lucy",
+    "discord-bot",
+    "discord.js",
+    "Discord bot",
+    "bot"
   ],
-  "author": "cleverbeagle",
+  "author": "Absolute Development",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cleverbeagle/npm-package-template/issues"
+    "url": "https://github.com/Absolute-Development/discord-lucy-bot/issues"
   },
-  "homepage": "http://cleverbeagle.com/packages/template",
-  "dependencies": {},
+  "homepage": "https://github.com/Absolute-Development/discord-lucy-bot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
